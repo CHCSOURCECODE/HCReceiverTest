@@ -1,0 +1,240 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "resourceppc.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 中文(中华人民共和国) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+#ifdef _WIN32
+LANGUAGE LANG_CHINESE, SUBLANG_CHINESE_SIMPLIFIED
+#pragma code_page(936)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "resourceppc.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)\r\n"
+    "LANGUAGE 4, 2\r\n"
+    "#pragma code_page(936)\r\n"
+    "#include ""res\\HCReceiverTestMFCWMppc.rc2""  // 非 Microsoft Visual C++ 编辑的资源\r\n"
+    "#include ""l.CHS\\afxres.rc""      // 标准组件\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\HCReceiverTestMFCWM.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_HCRECEIVERTESTMFCWM_DIALOG DIALOG  0, 0, 159, 193
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+CAPTION "HCReceiverTestMFCWM"
+FONT 9, "MS Sans Serif"
+BEGIN
+    LTEXT           "Lon:",IDC_STATIC_LONGTITUDE,4,14,22,8
+    LTEXT           "Lat:",IDC_STATIC_LATITUDE,4,29,22,8
+    LTEXT           "Height:",IDC_STATIC_ALTITUDE,4,44,22,8
+    EDITTEXT        IDC_EDIT_WGS84_LONGITUDE,26,11,63,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_WGS84_LATITUDE,26,26,63,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_WGS84_ALTITUDE,26,41,63,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "B:",IDC_STATIC_TRAN_LONGTITUDE,4,69,22,8
+    LTEXT           "L:",IDC_STATIC_TRAN_LATITUDE,4,85,22,8
+    LTEXT           "H:",IDC_STATIC_TRAN_ALTITUDE,4,100,22,8
+    EDITTEXT        IDC_EDIT_TRANSFORM_LONGITUDE,26,66,63,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_TRANSFORM_LATITUDE,26,81,63,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT_TRANSFORM_ALTITUDE,26,96,63,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "HDOP:",IDC_STATIC,90,1,21,8
+    EDITTEXT        IDC_EDIT_HDOP,89,11,30,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "VDOP:",IDC_STATIC,119,1,21,8
+    EDITTEXT        IDC_EDIT_VDOP,120,11,30,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "HRMS:",IDC_STATIC,90,25,21,8
+    EDITTEXT        IDC_EDIT_HRMS,89,33,30,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "VRMS:",IDC_STATIC,119,25,21,8
+    EDITTEXT        IDC_EDIT_VRMS,120,33,30,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "XYZ",IDC_BUTTON_SETCOORD,89,97,30,14
+    PUSHBUTTON      "Open",IDC_BUTTON_START,89,113,30,14
+    PUSHBUTTON      "GPS",IDC_BUTTON_GPSSET,120,97,30,14
+    PUSHBUTTON      "CORS",IDC_BUTTON_SETCORS,120,113,30,14
+    PUSHBUTTON      "Close",IDC_BUTTON_STOP,89,127,30,14
+    PUSHBUTTON      "Get",IDC_BUTTON_GETPOS,120,141,30,14
+    LTEXT           "GPS mode:",IDC_STATIC,3,115,43,8
+    EDITTEXT        IDC_EDIT_GPSSTATUS,46,113,43,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "WGS84 Position:",IDC_STATIC,4,2,75,8
+    LTEXT           "Transform Position:",IDC_STATIC,4,57,85,8
+    LTEXT           "Speed:",IDC_STATIC,89,49,26,8
+    EDITTEXT        IDC_EDIT_SPEED,89,57,30,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Direction:",IDC_STATIC,116,49,36,8
+    EDITTEXT        IDC_EDIT_COURSE,120,57,30,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Quality:",IDC_STATIC,89,73,32,8
+    EDITTEXT        IDC_EDIT_QUA,89,81,30,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Sat:",IDC_STATIC,123,73,22,8
+    EDITTEXT        IDC_EDIT_SAT,120,81,30,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "DGPS mode:",IDC_STATIC,3,131,42,8
+    EDITTEXT        IDC_EDIT_DGPSSTATUS,46,128,43,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Time:",IDC_STATIC,3,146,21,8
+    EDITTEXT        IDC_EDIT_TIME,25,143,62,14,ES_AUTOHSCROLL | ES_READONLY
+    LTEXT           "Error Info:",IDC_STATIC,3,162,49,8
+    EDITTEXT        IDC_EDIT_ERRORCODE,51,159,63,14,ES_AUTOHSCROLL | ES_READONLY
+    PUSHBUTTON      "Unique",IDC_BUTTON_UNIQUEID,90,143,30,14
+    PUSHBUTTON      "Reg",IDC_BUTTON_REG,115,156,30,14
+    PUSHBUTTON      "Tcp dir",IDC_BUTTON_TCPDirect,120,127,30,14
+    PUSHBUTTON      "Start PPK",IDC_BUTTON_PPKStart,3,175,50,14
+    PUSHBUTTON      "Stop PPK",IDC_BUTTON_PPKStop,89,176,50,14
+END
+
+IDD_HCRECEIVERTESTMFCWM_DIALOG_WIDE DIALOG  0, 0, 210, 129
+STYLE DS_SETFONT | WS_POPUP | WS_VISIBLE | WS_CAPTION
+EXSTYLE WS_EX_APPWINDOW | 0x80000000L
+CAPTION "HCReceiverTestMFCWM"
+FONT 9, "MS Sans Serif"
+BEGIN
+END
+
+IDD_DIALOG_TCPDirect DIALOG  0, 0, 137, 158
+STYLE DS_SETFONT | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "TCPDirect"
+FONT 8, "MS Shell Dlg"
+BEGIN
+    RTEXT           "IP：",IDC_STATIC,0,21,45,8
+    EDITTEXT        IDC_EDIT_IPAddress,49,18,74,12,ES_AUTOHSCROLL
+    RTEXT           "Port：",IDC_STATIC,0,41,45,8
+    EDITTEXT        IDC_EDIT_Port,49,38,74,12,ES_AUTOHSCROLL
+    RTEXT           "Source list：",IDC_STATIC,0,61,45,8
+    COMBOBOX        IDC_COMBO_Sourcelist,49,58,74,83,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    PUSHBUTTON      "Log in",IDC_BUTTON_Login,13,103,46,14
+    PUSHBUTTON      "Exit",IDC_BUTTON_Logout,69,103,46,14
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "080403a8"
+        BEGIN
+            VALUE "CompanyName", "TODO: <公司名>"
+            VALUE "FileDescription", "TODO: <文件说明>"
+            VALUE "FileVersion", "1.0.0.1"
+            VALUE "InternalName", "HCReceiverTestMFCWM.exe"
+            VALUE "LegalCopyright", "TODO: (C) <公司名>。保留所有权利。"
+            VALUE "OriginalFilename", "HCReceiverTestMFCWM.exe"
+            VALUE "ProductName", "TODO: <产品名>"
+            VALUE "ProductVersion", "1.0.0.1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x804, 936
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_HCRECEIVERTESTMFCWM_DIALOG, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 177
+    END
+
+    IDD_DIALOG_TCPDirect, DIALOG
+    BEGIN
+        RIGHTMARGIN, 135
+        TOPMARGIN, 1
+        BOTTOMMARGIN, 155
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 中文(中华人民共和国) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_CHS)
+LANGUAGE 4, 2
+#pragma code_page(936)
+#include "res\HCReceiverTestMFCWMppc.rc2"  // 非 Microsoft Visual C++ 编辑的资源
+#include "l.CHS\afxres.rc"      // 标准组件
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
