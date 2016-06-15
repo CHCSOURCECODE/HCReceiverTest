@@ -1,18 +1,18 @@
 //
-// HCReceiverTestMFCWMPPC.RC2 - Microsoft Visual C++ 不会直接编辑的资源
+// HCReceiverTestMFCWMPPC.RC2 - Microsoft Visual C++ ����ֱ�ӱ༭����Դ
 //
 
 #ifdef APSTUDIO_INVOKED
-#error 此文件不能用 Microsoft Visual C++ 编辑
+#error ���ļ������� Microsoft Visual C++ �༭
 #endif //APSTUDIO_INVOKED
 
 
 /////////////////////////////////////////////////////////////////////////////
-// 在此处添加手动编辑的资源...
+// �ڴ˴������ֶ��༭����Դ...
 
 /////////////////////////////////////////////////////////////////////////////
-HI_RES_AWARE CEUX {1}    // 关闭模拟层
-            // 移除此资源可在平台上启用像素
-            // 加倍(但需平台提供支持)
+HI_RES_AWARE CEUX {1}    // �ر�ģ���
+            // �Ƴ�����Դ����ƽ̨����������
+            // �ӱ�(����ƽ̨�ṩ֧��)
 /////////////////////////////////////////////////////////////////////////////
 
